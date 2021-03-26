@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/calendar_edit_padding">
+
+    <TextView
+        android:id="@+id/calendar_edit_t016"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="511dp"
+        android:text="@string/calendar_edit_t016"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/calendar_edit_t017"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/calendar_edit_tr003"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/alpaca007"
+        android:textSize="24sp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/calendar_edit_e001"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/calendar_edit_b003"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edt_normal"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/calendar_edit_e001"
+        android:inputType="textMultiLine"
+        android:textColor="@color/Black" />
+
+    <EditText
+        android:id="@+id/calendar_edit_e002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar_edit_e001"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edt_normal"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/calendar_edit_e002"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/calendar_edit_padding"
+        android:textColor="@color/Black" />
+
+    <EditText
+        android:id="@+id/calendar_edit_e003"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/calendar_edit_e002"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="@drawable/bg_edt_normal"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/calendar_edit_e003"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/calendar_edit_padding"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/calendar_edit_b003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/calendar_bg_rectangle_with_stroke"
+        android:text="@string/calendar_edit_b003"
+        android:textColor="@color/AliceBlue"
+        android:textSize="18sp" />
+
+    <TableRow
+        android:id="@+id/calendar_edit_tr002"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar_edit_e002"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/calendar_edit_t014"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@drawable/bg_edt_normal"
+            android:gravity="center"
+            android:text="@string/calendar_edit_t014"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/calendar_edit_b001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calendar_bg_rectangle_with_stroke"
+            android:text="@string/calendar_edit_b001"
+            android:textColor="@color/AliceBlue"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/calendar_edit_b004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/calendar_edit_b003"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/calendar_bg_rectangle_with_stroke"
+        android:text="@string/calendar_edit_b004"
+        android:textColor="@color/AliceBlue"
+        android:textSize="18sp" />
+
+    <TableRow
+        android:id="@+id/calendar_edit_tr003"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar_edit_tr002"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/calendar_edit_t015"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:background="@drawable/bg_edt_normal"
+            android:gravity="center"
+            android:text="@string/calendar_edit_t015"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/calendar_edit_b002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/calendar_bg_rectangle_with_stroke"
+            android:text="@string/calendar_edit_b002"
+            android:textColor="@color/AliceBlue"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/calendar_edit_tr001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/calendar_edit_e003"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_edt_normal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/calendar_edit_t013"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:text="@string/calendar_edit_t013"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/calendar_edit_sp001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/calendar_edit_padding"
+            android:entries="@array/calendar_edit_sp001"
+            android:prompt="@string/calendar_edit_b002"
+            android:spinnerMode="dialog" />
+    </TableRow>
+
+</RelativeLayout>

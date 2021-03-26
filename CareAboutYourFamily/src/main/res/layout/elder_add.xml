@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Cornsilk"
+    android:orientation="vertical"
+    android:padding="@dimen/padding">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/elder_add_t001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:text="@string/elder_add_t001"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/elder_add_e001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="6"
+            android:autofillHints=""
+            android:background="@drawable/bg_edt_normal"
+            android:backgroundTint="@color/White"
+
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/elder_add_e001"
+            android:inputType="textMultiLine"
+            android:textColor="@color/Black" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/calendar_edit_padding"
+        android:layout_marginBottom="@dimen/calendar_edit_padding">
+
+        <TextView
+            android:id="@+id/elder_add_t002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:text="@string/elder_add_t002"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/elder_add_sp001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_dropdown"
+            android:dropDownWidth="match_parent"
+            android:keepScreenOn="true"
+            android:popupBackground="@color/Beige"
+            android:prompt="@string/elder_add_sp001"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/elder_add_t003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/elder_add_t003"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/elder_add_sp002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/btn_dropdown"
+            android:dropDownWidth="match_parent"
+            android:keepScreenOn="true"
+            android:popupBackground="@color/Beige"
+            android:prompt="@string/elder_add_sp002"
+            android:spinnerMode="dialog" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/calendar_edit_padding"
+        android:layout_marginBottom="@dimen/calendar_edit_padding">
+
+        <TextView
+            android:id="@+id/elder_add_t004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/recordedit_5dp"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:text="@string/elder_add_t004"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/elder_add_t005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/recordedit_5dp"
+            android:layout_weight="2"
+            android:background="@color/White"
+            android:gravity="center|start"
+            android:text="@string/elder_add_t005"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/elder_add_t006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/recordedit_5dp"
+            android:layout_weight="1"
+            android:gravity="center|start"
+            android:text="@string/elder_add_t006"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/elder_add_t007"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@color/White"
+            android:gravity="center|start"
+            android:text="@string/elder_add_t007"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/elder_add_b001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/calendar_edit_padding"
+            android:text="@string/elder_add_b001" />
+
+        <Button
+            android:id="@+id/elder_add_b002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/calendar_edit_padding"
+            android:text="@string/elder_add_b002" />
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tw.careabout.yourfamily">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>*
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>*
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CareAboutYourFamily">
+        <activity
+            android:name=".Open">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main" android:screenOrientation="locked"/>
+        <activity android:name=".med.MedEdit" android:screenOrientation="locked" />
+        <activity android:name=".record.RecordEdit" android:screenOrientation="locked" />
+        <activity android:name=".board.Board" android:screenOrientation="locked" />
+        <activity android:name=".board.Board_Add" android:screenOrientation="locked"/>
+        <activity android:name=".board.Board_Edit" android:screenOrientation="locked"/>
+        <activity android:name=".board.Board_Show" android:screenOrientation="locked"/>
+        <activity android:name=".Family" android:screenOrientation="locked"/>
+        <activity android:name=".Family_Home" android:screenOrientation="locked"/>
+        <activity android:name=".calendar.Calendar_edit" android:screenOrientation="locked" />
+        <activity android:name=".calendar.Calendar_secondaryshow" android:screenOrientation="locked" />
+        <activity android:name=".Elder_Add" android:screenOrientation="locked" />
+        <activity android:name=".Elder_Update" android:screenOrientation="locked" />
+        <receiver android:name=".med.AlertReciver"/>
+
+
+    </application>
+
+</manifest>

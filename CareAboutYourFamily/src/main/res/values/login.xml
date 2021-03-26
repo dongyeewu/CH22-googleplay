@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_t001">台中好照護</string>
+
+    <string name="desc_google_icon">Google Logo</string>
+    <string name="title_text">貴賓您好\n請使用Google帳號登入</string>
+    <string name="title_text_login">歡迎使用!!</string>
+    <string name="signed_out">貴賓您好\n請使用Google帳號登入\n按右上選單進行登入喔 ~ </string>
+    <string name="OptionalAction">加註</string>
+    <string name="disconnect">中斷連結</string>
+    <string name="signed_in_fmt">Google Account: %s</string>
+</resources>

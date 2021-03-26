@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/f004_r000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/f004_l000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Bisque"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/f004_t000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/SandyBrown"
+            android:gravity="center"
+            android:text="@string/f004_t000"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/f004_t001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:padding="15dp"
+            android:text="@string/f004_t001"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/f004_e001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <RelativeLayout
+            android:id="@+id/f004_r002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/f004_t002"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/SandyBrown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/f004_t002"
+                android:textSize="36sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.Home_rs_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/home_rs_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/home_rs_tr499"
+        android:layout_below="@+id/home_rs_tr010"
+        android:background="@color/Cornsilk"
+        android:paddingStart="@dimen/sm10dp"
+        android:paddingEnd="@dimen/sm10dp">
+
+        <LinearLayout
+            android:id="@+id/home_rs_recordlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/p5dp"
+            android:visibility="visible">
+
+            <TableRow
+                android:id="@+id/home_rs_tr020"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/home_rs_build"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_creater"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_tempname"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr030"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/home_rs_buildtime"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_tbuilddate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_nhint"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr040"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:gravity="start">
+
+                <TextView
+                    android:id="@+id/home_rs_ename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:importantForAutofill="no"
+                    android:text="@string/recordedit_name"
+                    android:textAlignment="center"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/home_rs_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_sex"
+                    android:textColor="@color/Black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr080"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:background="@color/Bisque"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_bloodpressure"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr090"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_systolicbloodp"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/recordedit_15dp"
+                    android:layout_marginTop="@dimen/p5dp"
+                    android:layout_marginEnd="@dimen/p5dp"
+                    android:layout_marginBottom="@dimen/p5dp"
+                    android:text="@string/recordedit_diastolicbloodp"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t002"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:background="@color/Bisque"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_bloodsugar"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_beforebloods"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t003"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/recordedit_15dp"
+                    android:layout_marginTop="@dimen/p5dp"
+                    android:layout_marginEnd="@dimen/p5dp"
+                    android:layout_marginBottom="@dimen/p5dp"
+                    android:text="@string/recordedit_afterbloods"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t004"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:background="@color/Bisque"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_other"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr060"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_height"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_weight"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t006"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr070"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_temperature"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t007"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow
+
+                android:id="@+id/home_rs_tr130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:gravity="start">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_eat"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t008"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/recordedit_15dp"
+                    android:layout_marginTop="@dimen/p5dp"
+                    android:layout_marginEnd="@dimen/p5dp"
+                    android:layout_marginBottom="@dimen/p5dp"
+                    android:text="@string/recordedit_turn"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t009"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/p5dp"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_pee"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t010"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/recordedit_15dp"
+                    android:layout_marginTop="@dimen/p5dp"
+                    android:layout_marginEnd="@dimen/p5dp"
+                    android:layout_marginBottom="@dimen/p5dp"
+                    android:text="@string/recordedit_poo"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_t011"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:background="@color/White"
+                    android:hint="@string/recordedit_nhint"
+                    android:importantForAutofill="no"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr150"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/recordedit_25dp"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/home_rs_lastedit"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_editter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_tempname"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/home_rs_tr160"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/home_rs_edittime"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/home_rs_teditdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/p5dp"
+                    android:text="@string/recordedit_shint"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+            </TableRow>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/home_rs_noFamily_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/home_rs_noFamily_t001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/home_bd_t004"
+            android:textColor="@color/Brown"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/home_rs_noFamily_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/recordedit_20dp"
+            android:background="@drawable/family_btn_rectangle_radius"
+            android:gravity="center"
+            android:text="@string/home_bd_t005"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/noRecord_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/Cornsilk"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/noRecord__t001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/home_bd_t007"
+            android:textColor="@color/Brown"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/noRecord__img"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/recordedit_10dp"
+            app:srcCompat="@drawable/ic_baseline_sort_24" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

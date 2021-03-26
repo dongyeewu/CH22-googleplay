@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_secondaryshow_t001">修改</string>
+    <string name="calendar_secondaryshow_t002">標題</string>
+    <string name="calendar_secondaryshow_t003">內容</string>
+    <string name="calendar_secondaryshow_t004">刪除</string>
+    <string name="calendar_secondaryshow_t005">ID</string>
+    <string name="calendar_secondaryshow_t006">日期:</string>
+    <string name="calendar_secondaryshow_t007">內容</string>
+    <string name="calendar_secondaryshow_t008">時間:</string>
+    <string name="calendar_secondaryshow_t009">年月日</string>
+    <string name="calendar_secondaryshow_t010">時分</string>
+    <string name="calendar_secondaryshow_t01">編輯中</string>
+    <string name="calendar_secondaryshow_b001">確認修改</string>
+    <string name="calendar_secondaryshow_b002">取消修改</string>
+    <string name="calendar_secondaryshow_t012">編輯者:</string>
+    <string name="calendar_secondaryshow_t013">某某人</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/recordedit_2dp"
+    android:layout_marginBottom="@dimen/recordedit_2dp"
+    android:background="@color/Cornsilk"
+    android:orientation="vertical"
+    android:padding="@dimen/calendar_edit_padding">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/calendar_edit_padding">
+
+        <TextView
+            android:id="@+id/elder_cell_post_t001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/elder_cell_post_t001"
+            android:textColor="@color/Black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/elder_cell_post_t002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/elder_cell_post_t002"
+            android:textColor="@color/Black"
+            android:textSize="24sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/elder_cell_post_t003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/elder_cell_post_t003"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/elder_cell_post_t004"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/elder_cell_post_t004"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/elder_cell_post_t005"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/elder_cell_post_t005"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/elder_cell_post_t006"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/elder_cell_post_t006"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/elder_cell_post_t007"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/elder_cell_post_t007"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/elder_cell_post_t008"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/elder_cell_post_t008"
+            android:textColor="@color/Black"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/calendar_edit_padding">
+
+        <TextView
+            android:id="@+id/elder_cell_post_t009"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/calendar_edit_padding"
+            android:layout_weight="1"
+            android:background="@drawable/calendar_bg_rectangle_with_stroke"
+            android:gravity="center"
+            android:text="@string/elder_cell_post_t009"
+            android:textColor="@color/Black" />
+
+        <TextView
+            android:id="@+id/elder_cell_post_t010"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/calendar_edit_padding"
+            android:layout_weight="1"
+            android:background="@drawable/bg_rectangle_with_stroke"
+            android:gravity="center"
+            android:text="@string/elder_cell_post_t010"
+            android:textColor="@color/Black" />
+    </TableRow>
+</LinearLayout>

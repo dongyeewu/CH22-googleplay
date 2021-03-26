@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_t001">主日曆畫面</string>
+    <string name="calendar_t002">副日曆畫面</string>
+    <string name="calendar_t003">新增</string>
+    <string name="calendar_t004">今天還沒有事，請新增!!</string>
+
+    <string name="calendar_24name">24號吳東頤</string>
+    <string name="calendar_imge001">上</string>
+    <string name="calendar_t005" />
+
+
+</resources>

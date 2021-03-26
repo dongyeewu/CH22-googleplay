@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Cornsilk"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cayf_bnv"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="0dp">
+
+
+        <!--        <Button-->
+<!--            android:id="@+id/recordshow_next00"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/recordshow_t000"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:backgroundTint="@color/DarkKhaki"-->
+<!--            android:text="@string/recordshow_next00"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/Black"-->
+<!--            android:textSize="18sp" />-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/recordshow_fir"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignTop="@+id/recordshow_next00"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="0dp"-->
+<!--            android:backgroundTint="@color/DarkKhaki"-->
+<!--            android:text="@string/recordshow_fir"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="@color/Black"-->
+<!--            android:textSize="18sp"-->
+<!--            android:theme="@null" />-->
+
+        <Spinner
+            android:id="@+id/resh_spi"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:entries="@array/resh_spi"
+            android:gravity="center_horizontal|center_vertical" />
+
+        <TextView
+            android:id="@+id/recordshow_selectElder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/recordshow_selectElder"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/recordshow_b001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="100dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/DarkKhaki"
+            android:text="@string/recordshow_button"
+            android:textColor="@color/Black"
+            android:textSize="18sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/recordshow_myname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/DarkKhaki"
+            android:text="@string/recordshow_myname"
+            android:textColor="@color/Black"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:id="@+id/rtable00"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/resh_spi"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/Azure">
+
+            <TextView
+                android:id="@+id/recordshow_name00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_name00"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/resh_id00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_eddate00"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Azure"
+                android:text="@string/resh_id"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/recordshow_edname00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_name00"
+                android:layout_alignStart="@+id/recordshow_name00"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/recordshow_sex00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/recordshow_name00"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/recordshow_name00"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_sex00"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_edsex00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_sex00"
+                android:layout_alignStart="@+id/recordshow_sex00"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/recordshow_note"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/recordshow_sex00"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/recordshow_sex00"
+                android:background="@android:drawable/ic_menu_edit"
+                android:contentDescription="@string/resh_note"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_date00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_edname00"
+                android:layout_alignStart="@+id/recordshow_edname00"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_date00"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_eddate00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_date00"
+                android:layout_alignStart="@+id/recordshow_date00"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recordshow_time00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/recordshow_edsex00"
+                android:layout_alignTop="@+id/recordshow_date00"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_time00"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_edtime00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_time00"
+                android:layout_alignStart="@+id/recordshow_time00"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recordshow_writer00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/recordshow_time00"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/recordshow_time00"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_writer"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_edwriter00"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_writer00"
+                android:layout_alignStart="@+id/recordshow_writer00"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rtable01"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/rtable00"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/Azure">
+
+            <TextView
+                android:id="@+id/recordshow_name01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_name00"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/resh_id01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_eddate01"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Azure"
+                android:text="@string/resh_id"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/recordshow_edname01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_name01"
+                android:layout_alignStart="@+id/recordshow_name01"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/recordshow_sex01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/recordshow_name01"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/recordshow_name01"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_sex00"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_edsex01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_sex01"
+                android:layout_alignStart="@+id/recordshow_sex01"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/recordshow_note01"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/recordshow_sex01"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/recordshow_sex01"
+                android:background="@android:drawable/ic_menu_edit"
+                android:contentDescription="@string/resh_note"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_date01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_edname01"
+                android:layout_alignStart="@+id/recordshow_edname01"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_date00"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_eddate01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_date01"
+                android:layout_alignStart="@+id/recordshow_date01"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recordshow_time01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/recordshow_edsex01"
+                android:layout_alignTop="@+id/recordshow_date01"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_time00"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_edtime01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_time01"
+                android:layout_alignStart="@+id/recordshow_time01"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/recordshow_writer01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/recordshow_time01"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/recordshow_time01"
+                android:background="@color/Azure"
+                android:text="@string/recordshow_writer"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/recordshow_edwriter01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recordshow_writer01"
+                android:layout_alignStart="@+id/recordshow_writer01"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/White"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/cayf_bnv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/DarkSalmon"
+        android:visibility="gone"
+        app:itemIconTint="@color/text_btn_selector"
+        app:itemRippleColor="@color/CornflowerBlue"
+        app:itemTextColor="@color/text_tab_selector"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_menu" />
+    <!--  BottomNavigationView項目超過三個會隱藏標題，所以要app:labelVisibilityMode="labeled"     -->
+</RelativeLayout>

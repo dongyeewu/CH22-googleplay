@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="medshow_content">用藥內容</string>
+    <string name="medshow_time">00:00</string>
+    <string name="medshow_edit">編輯</string>
+    <string name="medshow_del">刪除</string>
+    <string name="mededit_tpTitle">請選擇時間</string>
+    <string name="mededit_tpMsg">請選擇用藥時間</string>
+    <string name="medshow_b001">新增</string>
+    <string name="medshow_diaTitle">請問確定要刪除此通知嗎?</string>
+    <string name="medshow_diaMsg">即將刪除此提醒</string>
+    <string name="mededit_diaBtnOK">確定</string>
+    <string name="mededit_diaBtnCxl">取消</string>
+    <string name="medshow_notifyTitle">來自台中好照顧通知</string>
+
+    <string name="mededit_t001">用藥內容</string>
+    <string name="mededit_hint">在此輸入需要用藥的對象、內容以及數量</string>
+    <string name="mededit_t002">用藥時間</string>
+    <string name="mededit_time">00:00</string>
+    <string name="mededit_timepicker">請選擇時間</string>
+    <string name="mededit_save">確定</string>
+    <string name="noNotiText">還沒有任何提醒</string>
+</resources>

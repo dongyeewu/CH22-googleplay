@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="b000_t101">標題</string>
+    <string name="b000_t102">作者</string>
+    <string name="b000_t103">時間</string>
+    <string name="b000_t201">留言1</string>
+    <string name="b000_t202">留言2</string>
+    <string name="b000_t203">留言3</string>
+    <string name="b000_t204">留言4</string>
+    <string name="b000_t205">留言5</string>
+    <string name="b000_t206">留言6</string>
+    <string name="b000_t207">留言7</string>
+    <string name="b000_t208">留言8</string>
+    <string name="b000_t209">留言9</string>
+    <string name="b000_t210">留言10</string>
+    <string name="b000_t211">留言11</string>
+    <string name="b000_t212">留言12</string>
+    <string name="b000_t213">留言13</string>
+    <string name="b000_t214">留言14</string>
+    <string name="b000_t215">留言15</string>
+    <string name="b000_t216">留言16</string>
+    <string name="b000_t217">留言17</string>
+    <string name="b000_t218">留言18</string>
+    <string name="b000_t219">留言19</string>
+    <string name="b000_t220">留言20</string>
+    <string name="b000_b000">+</string>
+    <string name="tab_myMsg">我的留言</string>
+    <string name="tab_familyMsg">群組留言</string>
+    <string name="board_checkFamilyDlg_title">尚未擁有群組</string>
+    <string name="board_checkFamilyDlg_Msg">請先\"創建\"或\"加入\"群組，再使用留言版功能喔!</string>
+</resources>

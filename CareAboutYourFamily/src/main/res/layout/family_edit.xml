@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/f001_r000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:id="@+id/f001_l000"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@color/Bisque"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/f001_t000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/SandyBrown"
+            android:gravity="center"
+            android:text="@string/f001_t000"
+            android:textSize="36sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/f001_t004"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@string/f001_t004"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/f001_e001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <RelativeLayout
+            android:id="@+id/f001_r002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="@color/Bisque"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/f001_t006"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/SandyBrown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/f001_t006"
+                android:textSize="36sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

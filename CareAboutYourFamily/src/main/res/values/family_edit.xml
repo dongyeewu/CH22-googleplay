@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f001_t000">編輯群組</string>
+    <string name="f001_t001">公告事項：</string>
+    <string name="f001_t002">作者：</string>
+    <string name="f001_t003">時間：</string>
+    <string name="f001_t004">群組名稱：</string>
+    <string name="f001_t005">置頂</string>
+    <string name="f001_t006">確定</string>
+
+</resources>

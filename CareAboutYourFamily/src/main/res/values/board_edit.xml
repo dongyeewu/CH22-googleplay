@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="b002_t000">編輯留言</string>
+    <string name="b002_t001">標題：</string>
+    <string name="b002_t002">作者：</string>
+    <string name="b002_t003">時間：</string>
+    <string name="b002_t004">內容：</string>
+    <string name="b002_t005">置頂</string>
+    <string name="b002_t006">編輯</string>
+    <string name="b002_t008">刪除</string>
+    <string name="notNULLmsg">標題、內容不可以為空白</string>
+
+</resources>

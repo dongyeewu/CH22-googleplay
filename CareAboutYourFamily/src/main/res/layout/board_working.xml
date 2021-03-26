@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/b099_r000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/b099_l000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Bisque"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/b099_t000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/SandyBrown"
+            android:gravity="center"
+            android:text="施工中"
+            android:textSize="36sp" />
+
+        <ImageView
+            android:id="@+id/b099_i001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            app:srcCompat="@android:drawable/ic_menu_manage" />
+
+        <RelativeLayout
+            android:id="@+id/b099_r002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/b099_b001"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/SandyBrown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="返回"
+                android:textSize="36sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

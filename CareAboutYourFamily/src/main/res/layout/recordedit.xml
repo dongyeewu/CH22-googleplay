@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/PaleGoldenRod"
+    android:orientation="vertical">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/recordedit_sl000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/recordedit_rl000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+            <!--        <TableRow-->
+            <!--            android:id="@+id/recordedit_tr000"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_alignParentTop="true"-->
+            <!--            android:background="@color/PaleGoldenRod"-->
+            <!--            android:gravity="center_horizontal">-->
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/recordedit_ttitle"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:paddingTop="@dimen/recordedit_6dp"-->
+            <!--                android:text="@string/recordedit_title"-->
+            <!--                android:textAlignment="center"-->
+            <!--                android:textColor="@color/Black"-->
+            <!--                android:textSize="24sp" />-->
+            <!--        </TableRow>-->
+
+            <TableRow
+                android:id="@+id/recordedit_tr010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@color/PaleGoldenRod"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/recordedit_tpreviouspage"
+                    style="@style/Theme.CareAboutYourFamily"
+                    android:layout_width="@dimen/recordedit_80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/recordedit_10dp"
+                    android:text="@string/recordedit_previouspage"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/recordedit_sppage"
+                    android:layout_width="@dimen/recordedit_100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/recordedit_10dp"
+                    android:background="@drawable/recordedit_bg_btn_normal"
+                    android:dropDownWidth="wrap_content"
+                    android:entries="@array/recordedit_pages"
+                    android:prompt="@string/recordedit_select"
+                    android:spinnerMode="dropdown"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/recordedit_tnextpage"
+                    style="@style/Theme.CareAboutYourFamily"
+                    android:layout_width="@dimen/recordedit_80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/recordedit_10dp"
+                    android:text="@string/recordedit_nextpage"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/recordedit_sv010"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/recordedit_tr499"
+                android:layout_below="@+id/recordedit_tr010"
+                android:background="@color/Cornsilk"
+                android:paddingStart="@dimen/recordedit_10dp"
+                android:paddingEnd="@dimen/recordedit_10dp">
+
+                <LinearLayout
+                    android:id="@+id/recordedit_ll010"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/recordedit_6dp">
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr020"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_build"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/recordedit_tbuilder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:hint="@string/recordedit_nodata"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr030"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_buildtime"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/recordedit_tbuilddate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:hint="@string/recordedit_nodata"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr040"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:id="@+id/recordedit_tableid"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_name"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e500"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_shint"
+                            android:importantForAutofill="no"
+                            android:inputType="text"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_sex"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <Spinner
+                            android:id="@+id/recordedit_spsex"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:entries="@array/recordedit_sexs"
+                            android:prompt="@string/recordedit_select"
+                            android:spinnerMode="dropdown"
+                            android:textAlignment="center"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/recordedit_tsex"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nodata"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr050"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_birth"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/recordedit_tbirth"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_birthtitle"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/recordedit_tagetitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_age"
+                            android:textAlignment="center"
+                            android:textSize="18sp"
+                            android:visibility="invisible" />
+
+                        <TextView
+                            android:id="@+id/recordedit_tage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nodata"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp"
+                            android:visibility="invisible" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr060"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_bloodtype"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <Spinner
+                            android:id="@+id/recordedit_spbloodtype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:entries="@array/recordedit_bloods"
+                            android:prompt="@string/recordedit_select"
+                            android:spinnerMode="dropdown"
+                            android:textAlignment="center"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/recordedit_tbloodtype"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nodata"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_temperature"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e503"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nhint"
+                            android:importantForAutofill="no"
+                            android:inputType="numberDecimal"
+                            android:maxLength="6"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr070"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:layout_marginBottom="@dimen/recordedit_3dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_height"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e501"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_cmhint"
+                            android:importantForAutofill="no"
+                            android:inputType="numberDecimal"
+                            android:maxLength="6"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_weight"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e502"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_kghint"
+                            android:importantForAutofill="no"
+                            android:inputType="numberDecimal"
+                            android:maxLength="6"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr075"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_3dp"
+                        android:layout_marginBottom="@dimen/recordedit_3dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:id="@+id/recordedit_tbmititle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_bmi"
+                            android:textAlignment="center"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/recordedit_tbmi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nodata"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/recordedit_tbmimessage"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:hint="@string/recordedit_nodata"
+                            android:textSize="18sp"
+                            android:visibility="gone" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr080"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_3dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_bloodpressure"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr090"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_systolicbloodp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e504"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nhint"
+                            android:importantForAutofill="no"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/recordedit_15dp"
+                            android:layout_marginTop="@dimen/recordedit_6dp"
+                            android:layout_marginEnd="@dimen/recordedit_6dp"
+                            android:layout_marginBottom="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_diastolicbloodp"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e505"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nhint"
+                            android:importantForAutofill="no"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr100"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_bloodsugar"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr110"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_beforebloods"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e506"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nhint"
+                            android:importantForAutofill="no"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/recordedit_15dp"
+                            android:layout_marginTop="@dimen/recordedit_6dp"
+                            android:layout_marginEnd="@dimen/recordedit_6dp"
+                            android:layout_marginBottom="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_afterbloods"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e507"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nhint"
+                            android:importantForAutofill="no"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr120"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_other"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+
+                        android:id="@+id/recordedit_tr130"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_eat"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e508"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nhint"
+                            android:importantForAutofill="no"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/recordedit_15dp"
+                            android:layout_marginTop="@dimen/recordedit_6dp"
+                            android:layout_marginEnd="@dimen/recordedit_6dp"
+                            android:layout_marginBottom="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_turn"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e509"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nhint"
+                            android:importantForAutofill="no"
+                            android:inputType="number"
+                            android:maxLength="3"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr140"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_pee"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e510"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nhint"
+                            android:importantForAutofill="no"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/recordedit_15dp"
+                            android:layout_marginTop="@dimen/recordedit_6dp"
+                            android:layout_marginEnd="@dimen/recordedit_6dp"
+                            android:layout_marginBottom="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_poo"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <EditText
+                            android:id="@+id/recordedit_e511"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:background="@color/White"
+                            android:hint="@string/recordedit_nhint"
+                            android:importantForAutofill="no"
+                            android:inputType="number"
+                            android:maxLength="2"
+                            android:textAlignment="center"
+                            android:textColor="@color/Black"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr150"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_6dp"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_newedit"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/recordedit_teditor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:hint="@string/recordedit_nodata"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr160"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:text="@string/recordedit_edittime"
+                            android:textAlignment="center"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/recordedit_teditdate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/recordedit_6dp"
+                            android:hint="@string/recordedit_nodata"
+                            android:textSize="18sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:id="@+id/recordedit_tr170"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/recordedit_20dp"
+                        android:gravity="center_horizontal">
+
+                        <!--                    <TextView-->
+                        <!--                        android:id="@+id/recordedit_tdelete"-->
+                        <!--                        android:layout_width="@dimen/recordedit_100dp"-->
+                        <!--                        android:layout_height="wrap_content"-->
+                        <!--                        android:layout_margin="@dimen/recordedit_10dp"-->
+                        <!--                        android:background="@drawable/recordedit_bg_btn_normal"-->
+                        <!--                        android:text="@string/recordedit_delete"-->
+                        <!--                        android:textAlignment="center"-->
+                        <!--                        android:textColor="@color/Red"-->
+                        <!--                        android:textSize="18sp"-->
+                        <!--                        android:textStyle="bold" />-->
+
+                    </TableRow>
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+            <TableRow
+                android:id="@+id/recordedit_trmyname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/recordedit_tr499"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/recordedit_15dp"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/recordedit_tmyname"
+                    style="@style/Theme.CareAboutYourFamily"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/recordedit_6dp"
+                    android:text="@string/recordedit_myname"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/recordedit_tr499"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/PaleGoldenRod"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/recordedit_tvalue"
+                    style="@style/Theme.CareAboutYourFamily"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/recordedit_10dp"
+                    android:text="@string/recordedit_bloodvalue"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    android:visibility="invisible" />
+
+                <!--            <TextView-->
+                <!--                android:id="@+id/recordedit_badd"-->
+                <!--                style="@style/Theme.CareAboutYourFamily"-->
+                <!--                android:layout_width="@dimen/recordedit_80dp"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_marginStart="@dimen/recordedit_6dp"-->
+                <!--                android:layout_marginTop="@dimen/recordedit_10dp"-->
+                <!--                android:layout_marginEnd="@dimen/recordedit_6dp"-->
+                <!--                android:layout_marginBottom="@dimen/recordedit_10dp"-->
+                <!--                android:background="@drawable/recordedit_bg_btn_normal"-->
+                <!--                android:text="@string/recordedit_add"-->
+                <!--                android:textAlignment="center"-->
+                <!--                android:textSize="18sp" />-->
+
+            </TableRow>
+
+        </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <!--  BottomNavigationView項目超過三個會隱藏標題，所以要app:labelVisibilityMode="labeled"     -->
+</RelativeLayout>

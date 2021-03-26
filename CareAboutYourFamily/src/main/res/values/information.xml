@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_text_1">社會福利</string>
+    <string name="tab_text_2">醫療機構</string>
+    <string name="tab_text_3">照護服務</string>
+
+    <string-array name="district">
+        <item>全區</item><item>中區</item><item>東區</item><item>西區</item>
+        <item>南區</item><item>北區</item><item>西屯區</item><item>南屯區</item>
+        <item>北屯區</item><item>豐原區</item><item>大里區</item><item>太平區</item>
+        <item>清水區</item><item>沙鹿區</item><item>大甲區</item><item>東勢區</item>
+        <item>梧棲區</item><item>烏日區</item><item>神岡區</item><item>大肚區</item>
+        <item>大雅區</item><item>后里區</item><item>霧峰區</item><item>潭子區</item>
+        <item>龍井區</item><item>外埔區</item><item>和平區</item><item>石岡區</item>
+        <item>大安區</item><item>新社區</item>
+    </string-array>
+    <string-array name="welfare">
+        <item>長青福利補助</item>
+        <item>長青學苑課程</item>
+        <item>長青學苑據點</item>
+        <item>長照AC據點</item>
+        <item>社區關懷照護據點</item>
+    </string-array>
+    <string-array name="institution">
+        <item>醫療院所</item>
+        <item>敬老愛心卡合約診所</item>
+        <item>老人健康檢查合約醫療院所</item>
+        <item>糖尿病共同照護網醫療院所</item>
+        <item>健保藥局</item>
+        <item>社區藥局</item>
+    </string-array>
+    <string-array name="care_facilities">
+        <item>日間托老所</item>
+        <item>居家護理</item>
+        <item>居家復健</item>
+        <item>居家服務</item>
+        <item>喘息服務</item>
+        <item>交通接送</item>
+        <item>日間照顧中心</item>
+    </string-array>
+
+
+    <string name="navbar">navbar</string>
+    <string name="title_home">個人訊息</string>
+    <string name="title_med">用藥提醒</string>
+    <string name="title_record">健康紀錄</string>
+    <string name="title_calendar">行事曆</string>
+    <string name="title_info">相關資訊</string>
+
+    <string name="mainmenu">mainmenu</string>
+    <string name="m_logout">登出</string>
+    <string name="m_login">登入</string>
+
+    <string name="open">open</string>
+    <string name="open_t001">台中好照顧</string>
+
+    <string name="home">home</string>
+    <string name="home_login_img">Google Logo</string>
+    <string name="home_logout_txt">貴賓您好\n請使用Google帳號登入\n按右上選單進行登入喔 ~ </string>
+
+    <string name="info">相關資訊</string>
+    <string name="info_item_title">Title</string>
+    <string name="info_item_t100">地區</string>
+    <string name="info_item_t001">電話</string>
+    <string name="info_item_t002">地址</string>
+    <string name="info_item_t003">網址</string>
+    <string name="info_item_t000">內容</string>
+    <string name="info_item_t010">備註</string>
+    <string name="info_tab_text1">社會福利</string>
+    <string name="info_tab_text2">醫療機構</string>
+    <string name="info_tab_text3">照護服務</string>
+    <string name="info_nodata">沒有符合項目</string>
+    <string-array name="info_district">
+        <item>全區</item>
+        <item>中區</item>
+        <item>東區</item>
+        <item>西區</item>
+        <item>南區</item>
+        <item>北區</item>
+        <item>西屯區</item>
+        <item>南屯區</item>
+        <item>北屯區</item>
+        <item>豐原區</item>
+        <item>大里區</item>
+        <item>太平區</item>
+        <item>清水區</item>
+        <item>沙鹿區</item>
+        <item>大甲區</item>
+        <item>東勢區</item>
+        <item>梧棲區</item>
+        <item>烏日區</item>
+        <item>神岡區</item>
+        <item>大肚區</item>
+        <item>大雅區</item>
+        <item>后里區</item>
+        <item>霧峰區</item>
+        <item>潭子區</item>
+        <item>龍井區</item>
+        <item>外埔區</item>
+        <item>和平區</item>
+        <item>石岡區</item>
+        <item>大安區</item>
+        <item>新社區</item>
+    </string-array>
+    <string-array name="info_welfare">
+        <item>長青福利補助</item>
+        <item>長青學苑課程</item>
+        <item>長青學苑據點</item>
+        <item>長照AC據點</item>
+        <item>社區關懷照護據點</item>
+    </string-array>
+    <string-array name="info_institution">
+        <item>醫療院所</item>
+        <item>敬老愛心卡合約診所</item>
+        <item>老人健康檢查合約醫療院所</item>
+        <item>糖尿病共同照護網醫療院所</item>
+        <item>健保藥局</item>
+        <item>社區藥局</item>
+    </string-array>
+    <string-array name="info_care_facilities">
+        <item>日間托老所</item>
+        <item>居家護理</item>
+        <item>居家復健</item>
+        <item>居家服務</item>
+        <item>喘息服務</item>
+        <item>交通接送</item>
+        <item>日間照顧中心</item>
+    </string-array>
+    <string name="info_load">讀取中</string>
+    <string name="info_wait">請稍後</string>
+    <string name="info_dia_positive">確定</string>
+
+
+    <string name="board">留言板</string>
+    <string name="family">家庭群組</string>
+
+</resources>

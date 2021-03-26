@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/cayf_bnv"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:id="@+id/home_tr"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/CornflowerBlue">
+
+                <ImageView
+                    android:id="@+id/google_icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:contentDescription="@string/desc_google_icon" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center_vertical"
+                    android:paddingStart="@dimen/recordedit_10dp"
+                    android:text="@string/signed_out"
+                    android:textColor="@color/Black"
+                    android:textSize="14sp" />
+
+            </TableRow>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/home_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabBackground="@drawable/info_bg_tab_selector"
+                app:tabIndicatorColor="@color/SandyBrown"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/SandyBrown"
+                app:tabTextAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/home_views"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

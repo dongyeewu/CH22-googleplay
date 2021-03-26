@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/sm10dp">
+
+
+    <EditText
+        android:id="@+id/boardAdd_ed001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/b003_t001"
+        android:inputType="textPersonName"
+        android:padding="@dimen/ps10dp" />
+
+
+    <EditText
+        android:id="@+id/boardAdd_ed002"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:background="@color/Cornsilk"
+        android:gravity="start|top"
+        android:hint="@string/boardShow_context"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/boardAdd_addbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/SandyBrown"
+       android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/b003_t006"
+        android:textSize="30sp"
+        />
+
+
+</LinearLayout>

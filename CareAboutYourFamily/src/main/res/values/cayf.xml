@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cayf_t001">首頁</string>
+    <string name="cayf_t002">定時提醒</string>
+    <string name="cayf_t003">健康紀錄</string>
+    <string name="cayf_t004">行事曆</string>
+    <string name="cayf_t005">相關資訊</string>
+
+    <string name="cayf_t006">家庭群組</string>
+    <string name="cayf_t007">留言板</string>
+    <string name="cayf_login">登入</string>
+    <string name="cayf_logout">登出</string>
+    <string name="cayf_menu">menu</string>
+    <string name="cayf_gohome">回首頁</string>
+    <string name="toofast" >請不用連續點擊</string>
+</resources>

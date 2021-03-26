@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightSteelBlue"
+    android:orientation="vertical"
+    android:padding="@dimen/sm10dp">
+
+    <TextView
+        android:id="@+id/boardShow_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:text="@string/boardShow_title"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/boardShow_creater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boardShow_title"
+        android:layout_marginTop="0dp"
+        android:text="@string/boardShow_creater"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/boardShow_createTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boardShow_creater"
+        android:layout_marginTop="0dp"
+        android:text="@string/boardShow_createTime"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:id="@+id/b001_r001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/boardShow_createTime"
+        android:layout_marginTop="0dp"
+        android:background="@color/Bisque">
+
+        <TableRow
+            android:id="@+id/boardShow_editRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_toEndOf="@+id/boardEdit_context"
+            android:gravity="end"
+            android:visibility="invisible">
+
+            <TextView
+                android:id="@+id/boardShow_editbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/DarkOrange"
+                android:gravity="center_horizontal"
+                android:text="@string/boardShow_editbtn"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/boardShow_deletebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/recordedit_5dp"
+                android:background="@color/CadetBlue"
+                android:gravity="center_horizontal"
+                android:text="@string/boardShow_deletebtn"
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/boardEdit_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="@string/boardShow_context"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/b001_r001"
+        android:layout_marginTop="0dp"
+        android:background="@color/Bisque">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Bisque"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/boardShow_context"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="0dp"
+                android:background="@color/Bisque"
+                android:padding="10dp"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

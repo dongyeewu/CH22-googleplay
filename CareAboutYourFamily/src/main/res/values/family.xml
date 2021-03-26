@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f003_t001">群組名稱：</string>
+    <string name="f003_t002">創建</string>
+    <string name="f003_e001">請輸入群組名稱</string>
+    <string name="f003_t004">加入</string>
+    <string name="f003_t005">群組ID：</string>
+    <string name="f003_e002">請輸入群組ID</string>
+    <string name="f003_title01">創建群組</string>
+    <string name="f003_title02">加入群組</string>
+    <string name="f003_switch01">切換加入</string>
+    <string name="f003_switch02">切換創建</string>
+    <string name="f003_alert01">輸入錯誤，請再試一次</string>
+</resources>

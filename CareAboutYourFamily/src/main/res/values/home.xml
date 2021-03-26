@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_t001">近期行程 |  3天後</string>
+    <string name="home_t002" />
+    <string name="home_t003">xxx健康紀錄</string>
+    <string name="home_t004">yyy健康紀錄</string>
+    <string name="home_t006">提醒</string>
+    <string name="home_t010">編輯此行程</string>
+    <string name="home_t011">編輯此提醒</string>
+    <string name="home_t008">家庭留言板</string>
+    <string name="home_t012">新增留言</string>
+    <string name="home_logout">登出</string>
+    <string name="home_myname">26號石承民</string>
+
+    <string name="AskLoginDialog_title">尚未登入</string>
+    <string name="AskLoginDialog_familyMSG">要使用家庭群組功能，請先登入喔!</string>
+    <string name="AskLoginDialog_boardMSG">要使用留言板功能，請先登入喔!</string>
+    <string name="AskLogoutDialog_title">即將登出</string>
+    <string name="AskLogoutDialog_MSG">您確定要登出系統嗎?</string>
+    <string name="home_tab1">留言板</string>
+    <string name="home_tab2">最近行程</string>
+    <string name="home_tab3">最新紀錄</string>
+    <string name="home_tab4">被照顧者</string>
+
+    <string name="home_bd_t001">請點選右上角選單進行登入</string>
+    <string name="home_bd_t002">小提醒1:登入後即可啟用家庭群組功能</string>
+    <string name="home_bd_t003">小提醒2:使用留言版功能，登入後還要先"創建"或"加入"群組喔!</string>
+
+    <string name="home_bd_t004">立即擁有一個群組!!</string>
+    <string name="home_bd_t005">前往群組頁面</string>
+
+    <string name="home_bd_t006">目前還沒有任何留言喔!!</string>
+    <string name="home_bd_t007">目前還沒有任何紀錄喔!!</string>
+    <string name="home_rs_lastedit">上次編輯:</string>
+    <string name="home_rs_edittime">編輯時間:</string>
+    <string name="home_rs_build">建立成員:</string>
+    <string name="home_rs_buildtime">建立時間:</string>
+    <string name="home_no_elder">還沒有建立被照顧者</string>
+
+</resources>

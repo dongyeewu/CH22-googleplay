@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bisque"
+    android:padding="10dp">
+
+        <Switch
+            android:id="@+id/f003_switch01"
+            android:layout_width="80dp"
+            android:layout_height="52dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="40dp"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:showText="false"
+            android:text="@string/f003_switch01"
+            android:textColor="@color/Grey"
+            android:textColorLink="@color/SandyBrown"
+            android:textOff="@string/f003_switch01"
+            android:textOn="@string/f003_switch02"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/f003_l000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/f003_l002"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/f003_t001"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/f003_t001"
+                    android:textSize="28sp" />
+
+                <EditText
+                    android:id="@+id/f003_e001"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:gravity="end"
+                    android:hint="@string/f003_e001"
+                    android:inputType="textPersonName"
+                    android:textColorLink="@color/Aqua" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/f003_l003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/f003_t005"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/f003_t005"
+                    android:textSize="28sp" />
+
+                <EditText
+                    android:id="@+id/f003_e002"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:gravity="end"
+                    android:hint="@string/f003_e002"
+                    android:inputType="textPersonName"
+                    android:textColorLink="@color/Aqua" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/f003_l001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/f003_l000"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/f003_t002"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/family_btn_rectangle_radius"
+                android:gravity="center"
+                android:text="@string/f003_t002"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/f003_t004"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/family_btn_rectangle_radius"
+                android:gravity="center"
+                android:text="@string/f003_t004"
+                android:textSize="36sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+    <!--  BottomNavigationView項目超過三個會隱藏標題，所以要app:labelVisibilityMode="labeled"     -->
+
+</RelativeLayout>
+
+

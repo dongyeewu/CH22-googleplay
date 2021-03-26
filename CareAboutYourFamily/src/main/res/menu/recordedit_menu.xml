@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/recordedit_iread">
+        <item
+            android:id="@+id/action_settings"
+            android:icon="@android:drawable/ic_menu_revert"
+            android:orderInCategory="999"
+            android:title="@string/action_settings"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/recordedit_iadd"
+            android:icon="@android:drawable/ic_menu_add"
+            android:orderInCategory="100"
+            android:title="@string/recordedit_add"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/recordedit_iedit"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:orderInCategory="200"
+            android:title="@string/recordedit_edit"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/recordedit_idelete"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:orderInCategory="300"
+            android:title="@string/recordedit_delete"
+            app:showAsAction="ifRoom" />
+    </group>
+    <group
+        android:id="@+id/recordedit_iwrite"
+        android:visible="false">
+        <item
+            android:id="@+id/recordedit_icancel"
+            android:icon="@android:drawable/ic_menu_close_clear_cancel"
+            android:orderInCategory="999"
+            android:title="@string/recordedit_cancel"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/recordedit_iupdate"
+            android:icon="@android:drawable/ic_menu_save"
+            android:orderInCategory="100"
+            android:title="@string/recordedit_update"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>

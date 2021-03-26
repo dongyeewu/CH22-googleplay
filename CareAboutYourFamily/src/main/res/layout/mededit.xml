@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/mededit_t001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/mededit_t001"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/mededit_e001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mededit_t001"
+        android:layout_marginTop="5dp"
+        android:autofillHints=""
+        android:hint="@string/mededit_hint"
+        android:inputType="textMultiLine"
+        android:lines="3" />
+
+    <TextView
+        android:id="@+id/mededit_t002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mededit_e001"
+        android:layout_marginTop="15dp"
+        android:text="@string/mededit_t002"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/mededit_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mededit_t002"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/mededit_time"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/mededit_timepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mededit_time"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/mededit_bg_btn_selector"
+        android:gravity="center"
+        android:text="@string/mededit_timepicker"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/mededit_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_btn_normal"
+        android:gravity="center"
+        android:text="@string/mededit_save"
+        android:textColor="@color/Black"
+        android:textSize="18sp" />
+
+</RelativeLayout>

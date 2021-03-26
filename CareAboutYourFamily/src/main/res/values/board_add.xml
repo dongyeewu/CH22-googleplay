@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="b003_t000">留言</string>
+    <string name="b003_t001">標題：</string>
+    <string name="b003_t002">作者：</string>
+    <string name="b003_t003">時間：</string>
+    <string name="b003_t004">內容</string>
+    <string name="b003_t005">置頂</string>
+    <string name="b003_t006">新增</string>
+    <string name="addSuccessMsg">新增留言成功</string>
+    <string name="adderrorMsg">新增失敗，請稍後再試</string>
+
+</resources>

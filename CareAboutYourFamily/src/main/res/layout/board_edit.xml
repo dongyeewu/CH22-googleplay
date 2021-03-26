@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/sm10dp">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Bisque">
+
+        <TextView
+            android:id="@+id/boardEdit_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="@color/Bisque"
+            android:text="@string/boardShow_title"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/boardEdit_ed001"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+
+    <TextView
+        android:id="@+id/boardEdit_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="@color/Bisque"
+        android:text="@string/boardShow_context"
+        android:textSize="24sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/b002_r002"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:background="@color/Bisque">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Bisque"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/boardEdit_ed002"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:background="@color/Bisque"
+                    android:padding="10dp"
+                    android:text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cumque, voluptatum libero ex totam excepturi temporibus laborum rem dolor debitis adipisci delectus quae dolorem distinctio quis accusantium sapiente incidunt sequi."
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/b002_r002"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:background="@color/Bisque"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/boardEdit_editbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/SandyBrown"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/b002_t006"
+                android:textSize="25sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cayf_navigation"
+    app:startDestination="@id/nav_item01">
+
+
+    <fragment
+        android:id="@+id/nav_item01"
+        android:name="tw.careabout.yourfamily.home.Home_fragment"
+        android:label="@string/cayf_t001"
+        tools:layout="@layout/home_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_item02"
+        android:name="tw.careabout.yourfamily.med.MedShow_fragment"
+        android:label="@string/cayf_t002"
+        tools:layout="@layout/medshow_fragment" />
+
+    <fragment
+        android:id="@+id/nav_item03"
+        android:name="tw.careabout.yourfamily.record.RecordShow_fragment"
+        android:label="@string/cayf_t003"
+        tools:layout="@layout/recordshow_fragment" />
+
+    <fragment
+        android:id="@+id/nav_item04"
+        android:name="tw.careabout.yourfamily.calendar.Calendar_fragment"
+        android:label="@string/cayf_t004"
+        tools:layout="@layout/calendar_fragment" />
+
+    <fragment
+        android:id="@+id/nav_item05"
+        android:name="tw.careabout.yourfamily.info.InfoFragment"
+        android:label="@string/cayf_t005"
+        tools:layout="@layout/fragment_info" />
+
+</navigation>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar_secondarydemon_t001">時間</string>
+    <string name="calendar_secondarydemon_t002">標題</string>
+    <string-array name="time">
+        <item>0:00</item>
+        <item>1:00</item>
+        <item>2:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>16:00</item>
+        <item>18:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+
+    </string-array>
+    <string-array name="content">
+        <item>帶皓文去看醫生</item>
+        <item>跟嘉鴻去看電影</item>
+        <item>跟豐璽吃大餐</item>
+        <item>爭諺要來</item>
+        <item>跟培煌打電動</item>
+        <item>睡覺</item>
+        <item>運動</item>
+        <item>睡覺</item>
+        <item>洗澡</item>
+
+    </string-array>
+    <string-array name="time01">
+        <item>2:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>16:00</item>
+        <item>18:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+
+    </string-array>
+    <string-array name="content01">
+        <item>跟亮瑜吃飯</item>
+        <item>幫小石打掃</item>
+        <item>帶冠廷去曬太陽</item>
+        <item>睡覺</item>
+        <item>運動</item>
+        <item>睡覺</item>
+        <item>洗澡</item>
+
+    </string-array>
+    <string-array name="time02">
+        <item></item>
+
+
+    </string-array>
+    <string-array name="content02">
+        <item>今天還沒有事情啦!!</item>
+
+
+    </string-array>
+</resources>

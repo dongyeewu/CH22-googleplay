@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recordshow_next00">下一頁</string>
+    <string name="recordshow_name00">姓名</string>
+    <string name="recordshow_sex00">性別</string>
+    <string name="recordshow_date00">血型</string>
+    <string name="recordshow_time00">生日</string>
+    <string name="resh_note">編輯</string>
+
+    <string name="recordshow_fir">第一頁</string>
+    <string name="recordshow_t000">健康紀錄</string>
+    <string name="test_xxx">xxx</string>
+    <string name="recordshow_button">新增</string>
+    <string name="recordshow_writer">建立者</string>
+    <!---->
+
+    <string name="resh_fir">第一頁</string>
+    <string name="resh_t000">健康紀錄</string>
+    <string name="resh_xxx">xxx</string>
+    <string name="resh_button">編輯/新增</string>
+    <string name="resh_writer">建立者</string>
+    <string name="recordshow_myname"></string>
+
+    <string name="recordshow_add">確認是否新增</string>
+    <string name="resh_id">id</string>
+    <string name="resh_d_title" >新增被照顧者姓名</string>
+    <string name="resh_d_t001">請輸入姓名：</string>
+    <string name="resh_d_r001">由此輸入姓名</string>
+    <string name="resh_d_b001">確定新增</string>
+    <string name="resh_d_b002">取消新增</string>
+    <string name="resh_page1">第 1 頁</string>
+    <string name="resh_nodata">無資料</string>
+    <string name="resh_login">請登入會員</string>
+    <string name="resh_dbnodata">主機資料庫查無資料</string>
+    <string name="resh_addelder">查無資料 請先新增被照顧者</string>
+    <string name="resh_lastpage">沒有下一頁囉</string>
+    <string name="resh_firpage">已經到第1頁囉</string>
+    <string name="resh_noemail">查無email</string>
+    <string name="resh_internet">請開啟網路</string>
+    <string name="recordshow_selectElder">選擇要記錄的被照顧者</string>
+
+    <string-array name="resh_spi">
+        <item>第 1 頁</item>
+    </string-array>
+
+
+</resources>

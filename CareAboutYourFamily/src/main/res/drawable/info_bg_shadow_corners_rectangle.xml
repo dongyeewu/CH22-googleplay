@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingMode="stack">
+    <!-- 陰影 -->
+    <item
+        android:left="2dp"
+        android:top="2dp">
+        <shape>
+            <solid android:color="@color/DarkKhaki" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <!-- 前景 -->
+    <item
+        android:bottom="2dp"
+        android:right="2dp">
+        <shape>
+            <solid android:color="@color/DarkKhaki" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>

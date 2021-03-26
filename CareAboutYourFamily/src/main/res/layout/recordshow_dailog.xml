@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/AntiqueWhite"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/resh_d_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/SandyBrown"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="5dp"
+        android:text="@string/resh_d_title"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/resh_d_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resh_d_title"
+        android:layout_marginTop="10dp"
+        android:background="@color/Azure"
+        android:padding="5dp"
+        android:text="@string/resh_d_t001"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/resh_d_r001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resh_d_t001"
+        android:layout_marginTop="0dp"
+        android:background="@color/Azure"
+        android:hint="@string/resh_d_r001"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/resh_d_b001"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resh_d_r001"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/DarkOrange"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="5dp"
+        android:text="@string/resh_d_b001"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/resh_d_b002"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resh_d_r001"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/DarkOrange"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="5dp"
+        android:text="@string/resh_d_b002"
+        android:textSize="20sp" />
+
+</RelativeLayout>

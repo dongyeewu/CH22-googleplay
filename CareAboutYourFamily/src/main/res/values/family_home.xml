@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="f000_t000">阿嬤的照顧群組</string>
+    <string name="f000_t001">頭像</string>
+    <string name="f000_t002">暱稱</string>
+    <string name="f000_t003">上次登入時間</string>
+    <string name="f000_t004">對象</string>
+    <string name="f000_t005">注意事項，群組規範</string>
+    <string name="f000_t006">編輯</string>
+    <string name="f000_t007">成員</string>
+    <string name="f000_t008">最後編輯時間：</string>
+    <string name="f000_t011">群組ID</string>
+    <string name="f000_list01">Grid</string>
+    <string name="f000_t020">退出</string>
+    <string name="f000_title">家庭群組</string>
+    <string name="f000_t021">分享</string>
+    <string name="AskExitDialog_title">即將退出群組</string>
+    <string name="AskExitDialog_MSG">確定要退出群組嗎?</string>
+</resources>

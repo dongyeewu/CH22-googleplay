@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="recordedit_myname" />
+    <string name="recordedit_tempname">妹妹</string>
+    <string name="recordedit_guest">訪客</string>
+    <string name="recordedit_elder">爺爺</string>
+
+    <dimen name="recordedit_2dp">2dp</dimen>
+    <dimen name="recordedit_3dp">3dp</dimen>
+    <dimen name="recordedit_4dp">4dp</dimen>
+    <dimen name="recordedit_5dp">5dp</dimen>
+    <dimen name="recordedit_6dp">6dp</dimen>
+    <dimen name="recordedit_10dp">10dp</dimen>
+    <dimen name="recordedit_15dp">15dp</dimen>
+    <dimen name="recordedit_20dp">20dp</dimen>
+    <dimen name="recordedit_25dp">25dp</dimen>
+    <dimen name="recordedit_60dp">60dp</dimen>
+    <dimen name="recordedit_80dp">80dp</dimen>
+    <dimen name="recordedit_100dp">100dp</dimen>
+
+    <string name="recordedit_add">新增</string>
+    <string name="recordedit_afterbloods">飯後</string>
+    <string name="recordedit_age">年齡</string>
+    <string name="recordedit_agedd">未滿月</string>
+    <string name="recordedit_agemm">個月</string>
+    <string name="recordedit_ageyy">歲</string>
+    <string name="recordedit_beforebloods">飯前</string>
+    <string name="recordedit_birth">生日</string>
+    <string name="recordedit_birthmessage">請選擇家人的生日</string>
+    <string name="recordedit_birthtitle">選擇生日</string>
+    <string name="recordedit_bloodpressure">血壓</string>
+    <string name="recordedit_bloodsugar">血糖</string>
+    <string name="recordedit_bloodtype">血型</string>
+    <string name="recordedit_bloodvalue">血壓血糖標準值</string>
+    <string name="recordedit_bmi_eqgt18.5_ls24">健康體重</string>
+    <string name="recordedit_bmi_eqgt24_ls27">體重過重</string>
+    <string name="recordedit_bmi_eqgt27">肥胖</string>
+    <string name="recordedit_bmi_ls18.5">體重過輕</string>
+    <string name="recordedit_bmi">BMI</string>
+    <string name="recordedit_bmivalue">成人健康體位標準值</string>
+    <string name="recordedit_build">建立成員</string>
+    <string name="recordedit_buildtime">建立時間</string>
+    <string name="recordedit_cancel">取消</string>
+    <string name="recordedit_chknetmessage">請檢查網路連線</string>
+    <string name="recordedit_chknettitle">連線異常</string>
+    <string name="recordedit_cmhint">輸入公分</string>
+    <string name="recordedit_delete">刪除</string>
+    <string name="recordedit_deleted">已刪除</string>
+    <string name="recordedit_deletemessage">確定要刪除嗎？</string>
+    <string name="recordedit_diastolicbloodp">舒張壓</string>
+    <string name="recordedit_eat">餵飯</string>
+    <string name="recordedit_edit">編輯</string>
+    <string name="recordedit_edittime">編輯時間</string>
+    <string name="recordedit_firstpage">第一頁</string>
+    <string name="recordedit_height">身高</string>
+    <string name="recordedit_iknow">我知道了</string>
+    <string name="recordedit_kghint">輸入公斤</string>
+    <string name="recordedit_lastpage">最後一頁</string>
+    <string name="recordedit_name">姓名</string>
+    <string name="recordedit_newedit">最新編輯</string>
+    <string name="recordedit_nextpage">下一頁</string>
+    <string name="recordedit_nhint">輸入數字</string>
+    <string name="recordedit_nodata">沒有資料</string>
+    <string name="recordedit_nomoredata">沒有其他資料</string>
+    <string name="recordedit_ok">確定</string>
+    <string name="recordedit_onBackPressed">請按右上返回鍵</string>
+    <string name="recordedit_other">其他</string>
+    <string name="recordedit_page">頁</string>
+    <string name="recordedit_pee">小便</string>
+    <string name="recordedit_poo">大便</string>
+    <string name="recordedit_previouspage">上一頁</string>
+    <string name="recordedit_reinput">重新輸入</string>
+    <string name="recordedit_revert">返回</string>
+    <string name="recordedit_select">選擇</string>
+    <string name="recordedit_sex">性別</string>
+    <string name="recordedit_shint">輸入文字</string>
+    <string name="recordedit_systolicbloodp">收縮壓</string>
+    <string name="recordedit_temperature">體溫</string>
+    <string name="recordedit_the">第</string>
+    <string name="recordedit_time_dd">日</string>
+    <string name="recordedit_time_hh">時</string>
+    <string name="recordedit_time_mm">分</string>
+    <string name="recordedit_time_MM">月</string>
+    <string name="recordedit_time_yy">年</string>
+    <string name="recordedit_title">健康紀錄</string>
+    <string name="recordedit_titlemessage">的健康紀錄</string>
+    <string name="recordedit_turn">翻身</string>
+    <string name="recordedit_update">更新</string>
+    <string name="recordedit_updated">已更新</string>
+    <string name="recordedit_updatehint">輸入姓名</string>
+    <string name="recordedit_updatetoast">請輸入姓名</string>
+    <string name="recordedit_weight">體重</string>
+
+    <string name="recordedit_bloodvaluedata">
+        血壓參考值(mmHg)\n
+        　正常血壓：\n
+        　　收縮壓小於120 且\n
+        　　舒張壓小於80\n
+        　高血壓前期：\n
+        　　收縮壓120-139 或\n
+        　　舒張壓80-89\n
+        　高血壓：\n
+        　　收縮壓大於等於140 或\n
+        　　舒張壓大於等於90\n
+        血糖參考值(mg/dl)\n
+        　正常空腹血糖值：\n
+        　　小於100\n
+        　糖尿病前期：\n
+        　　100-125\n
+        　糖尿病：\n
+        　　大於等於126
+    </string>
+
+    <string name="recordedit_bmivaluedata">
+        BMI＝體重(kg)\n
+        ÷身高(m)÷身高(m)\n
+        　小於18.5\n
+        　　「體重過輕」，\n
+        　　需要多運動，均衡飲食，\n
+        　　以增加體能，維持健康！\n
+        　大於等於18.5，小於24\n
+        　　恭喜！「健康體重」，\n
+        　　要繼續保持！\n
+        　大於等於24，小於27\n
+        　　「體重過重」了，\n
+        　　要小心囉，趕快力行\n
+        　　「健康體重管理」！\n
+        　大於等於27\n
+        　　啊～「肥胖」，\n
+        　　需要立刻力行\n
+        　　「健康體重管理」囉！
+    </string>
+
+    <string-array name="recordedit_pages">
+        <item>第 1 頁</item>
+    </string-array>
+
+    <string-array name="recordedit_sexs">
+        <item>選擇性別</item>
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="recordedit_bloods">
+        <item>選擇血型</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <style name="recordedit_AlertDialog" parent="Theme.MaterialComponents.DayNight.Dialog">
+        <item name="android:windowBackground">@color/Cornsilk</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+</resources>

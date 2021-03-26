@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boardShow_title">標題：</string>
+    <string name="boardShow_creater">作者：</string>
+    <string name="boardShow_createTime">時間：</string>
+    <string name="boardShow_context">內容：</string>
+    <string name="boardShow_editbtn">編輯</string>
+    <string name="boardShow_deletebtn">刪除</string>
+
+    <string name="boardShow_deleteDlgTitle">刪除留言</string>
+    <string name="boardShow_deleteDlgMsg">留言一旦刪除將不可復原，確定刪除嗎?</string>
+
+
+
+</resources>
